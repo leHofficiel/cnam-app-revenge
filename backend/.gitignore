@@ -1,0 +1,19 @@
+# npm
+package-lock.json
+node_modules
+*.log
+*.gz
+.env
+
+# Ignore built ts files
+/dist/**/*
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
