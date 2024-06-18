@@ -1,17 +1,137 @@
 [
-    {"title":"L'attaque des Titans", "duree": "25min", "image": "/assets/products/aot.webp", "genre":["Drame","Combat", "Action", "Mystere"]},
-    {"title":"One Piece", "duree": "25min", "image":"/assets/products/onepiece.webp", "genre":["Action","Aventure"]},
-    {"title":"Naruto", "duree": "25min", "image":"/assets/products/naruto.jpg", "genre":["Action","Aventure"]},
-    {"title":"Dragon Ball Z", "duree": "25min", "image":"/assets/products/dbz.webp", "genre":["Action","Aventure"]},
-    {"title":"Jujutsu Kaisen","duree": "25min", "image":"/assets/products/jjk.webp", "genre":["Action","Fantaisie"]},
-    {"title":"Demon Slayer", "duree": "25min", "image":"/assets/products/demonslayer.jpg", "genre":["Action","Fantaisie","Horreur"]},
-    {"title":"My Hero Academia", "duree": "25min", "image":"/assets/products/MHA.jpg", "genre":["Action","Super-héros"]},
-    {"title":"Black Clover", "duree": "25min", "image":"/assets/products/blackClover.jpe", "genre":["Action","Fantaisie"]},
-    {"title":"One Punch Man", "duree": "25min", "image":"/assets/products/onePunchMan.jpg", "genre":["Action","Super-héros","Comédie"]}, 
-    {"title":"Chainsaw Man","duree": "25min", "image":"/assets/products/chainsawMan.webp", "genre":["Action","Horreur"]},
-    {"title":"Bleach", "duree": "25min", "image":"/assets/products/bleach.png", "genre":["Action","Surnaturel"]},
-    {"title":"Fairy Tail", "duree": "25min", "image":"/assets/products/fairytail.webp", "genre":["Aventure","Fantaisie"]},
-    {"title":"Tokyo Ghoul", "duree": "25min", "image":"/assets/products/tokyoghoul.webp", "genre":["Horreur","Psychologique","Surnaturel"]},
-    {"title":"Death Note", "duree": "25min", "image":"/assets/products/deathnote.webp", "genre":["Mystère","Psychologique","Surnaturel"]},
-    {"title":"Fullmetal Alchemist: Brotherhood", "duree": "25min", "image":"/assets/products/fmaBrotherhood.jpe", "genre":["Aventure","Fantaisie","Surnaturel"]}
+    {
+        "id": 1,
+        "title": "L'attaque des Titans",
+        "duree": "25min",
+        "image": "/assets/products/aot.webp",
+        "genre": ["Drame", "Combat", "Action", "Mystere"],
+        "prix": 19.99,
+        "description": "Un groupe de jeunes soldats combat des titans géants pour protéger l'humanité d'une extinction imminente."
+    },
+    {
+        "id": 2,
+        "title": "One Piece",
+        "duree": "25min",
+        "image": "/assets/products/onepiece.webp",
+        "genre": ["Action", "Aventure"],
+        "prix": 14.99,
+        "description": "Luffy et son équipage de pirates recherchent le trésor ultime, le One Piece, tout en vivant des aventures palpitantes."
+    },
+    {
+        "id": 3,
+        "title": "Naruto",
+        "duree": "25min",
+        "image": "/assets/products/naruto.jpg",
+        "genre": ["Action", "Aventure"],
+        "prix": 12.99,
+        "description": "Naruto Uzumaki, un jeune ninja, cherche à devenir le plus grand Hokage et à gagner le respect de son village."
+    },
+    {
+        "id": 4,
+        "title": "Dragon Ball Z",
+        "duree": "25min",
+        "image": "/assets/products/dbz.webp",
+        "genre": ["Action", "Aventure"],
+        "prix": 15.99,
+        "description": "Goku et ses amis défendent la Terre contre des ennemis puissants tout en cherchant les Dragon Balls."
+    },
+    {
+        "id": 5,
+        "title": "Jujutsu Kaisen",
+        "duree": "25min",
+        "image": "/assets/products/jjk.webp",
+        "genre": ["Action", "Fantaisie"],
+        "prix": 16.99,
+        "description": "Yuji Itadori, un lycéen, se retrouve dans le monde des jujutsu sorciers après avoir avalé une relique maudite."
+    },
+    {
+        "id": 6,
+        "title": "Demon Slayer",
+        "duree": "25min",
+        "image": "/assets/products/demonslayer.jpg",
+        "genre": ["Action", "Fantaisie", "Horreur"],
+        "prix": 18.99,
+        "description": "Tanjiro Kamado, un jeune garçon, devient un tueur de démons pour venger sa famille et sauver sa sœur Nezuko."
+    },
+    {
+        "id": 7,
+        "title": "My Hero Academia",
+        "duree": "25min",
+        "image": "/assets/products/MHA.jpg",
+        "genre": ["Action", "Super-héros"],
+        "prix": 17.99,
+        "description": "Izuku Midoriya, né sans pouvoirs, rêve de devenir un héros et intègre la prestigieuse académie U.A."
+    },
+    {
+        "id": 8,
+        "title": "Black Clover",
+        "duree": "25min",
+        "image": "/assets/products/blackClover.jpe",
+        "genre": ["Action", "Fantaisie"],
+        "prix": 14.99,
+        "description": "Asta, un garçon sans magie, aspire à devenir le Roi Sorcier et surmonte de nombreux défis avec son ami Yuno."
+    },
+    {
+        "id": 9,
+        "title": "One Punch Man",
+        "duree": "25min",
+        "image": "/assets/products/onePunchMan.jpg",
+        "genre": ["Action", "Super-héros", "Comédie"],
+        "prix": 13.99,
+        "description": "Saitama, un super-héros qui peut vaincre n'importe quel ennemi d'un seul coup, cherche un adversaire digne de ce nom."
+    },
+    {
+        "id": 10,
+        "title": "Chainsaw Man",
+        "duree": "25min",
+        "image": "/assets/products/chainsawMan.webp",
+        "genre": ["Action", "Horreur"],
+        "prix": 19.99,
+        "description": "Denji, un jeune homme fusionné avec un démon tronçonneuse, lutte contre des démons pour rembourser ses dettes."
+    },
+    {
+        "id": 11,
+        "title": "Bleach",
+        "duree": "25min",
+        "image": "/assets/products/bleach.png",
+        "genre": ["Action", "Surnaturel"],
+        "prix": 14.99,
+        "description": "Ichigo Kurosaki devient un Shinigami et protège le monde des esprits maléfiques appelés Hollows."
+    },
+    {
+        "id": 12,
+        "title": "Fairy Tail",
+        "duree": "25min",
+        "image": "/assets/products/fairytail.webp",
+        "genre": ["Aventure", "Fantaisie"],
+        "prix": 13.99,
+        "description": "Natsu Dragneel et ses amis de la guilde Fairy Tail partent en quête d'aventures fantastiques et de combats épiques."
+    },
+    {
+        "id": 13,
+        "title": "Tokyo Ghoul",
+        "duree": "25min",
+        "image": "/assets/products/tokyoghoul.webp",
+        "genre": ["Horreur", "Psychologique", "Surnaturel"],
+        "prix": 17.99,
+        "description": "Ken Kaneki, un étudiant devenu mi-ghoul mi-humain, navigue dans le monde dangereux des ghouls à Tokyo."
+    },
+    {
+        "id": 14,
+        "title": "Death Note",
+        "duree": "25min",
+        "image": "/assets/products/deathnote.webp",
+        "genre": ["Mystère", "Psychologique", "Surnaturel"],
+        "prix": 16.99,
+        "description": "Light Yagami découvre un carnet surnaturel qui lui permet de tuer n'importe qui en écrivant leur nom."
+    },
+    {
+        "id": 15,
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "duree": "25min",
+        "image": "/assets/products/fmaBrotherhood.jpe",
+        "genre": ["Aventure", "Fantaisie", "Surnaturel"],
+        "prix": 19.99,
+        "description": "Les frères Elric cherchent la Pierre Philosophale pour restaurer leurs corps après une expérience d'alchimie ratée."
+    }
 ]
