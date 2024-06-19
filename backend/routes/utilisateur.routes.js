@@ -5,9 +5,9 @@ module.exports = app => {
   
     let router = require("express").Router();
   
-
-    // login utilisateur
     router.post("/login", utilisateur.login);
+
+    router.post("/register", utilisateur.register);
   
     app.use('/utilisateur', router);
   };
